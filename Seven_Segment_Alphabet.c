@@ -20,9 +20,9 @@
 #define SEG_H   0x2A 
 #define SEG_I   0xEE 
 #define SEG_J   0x8E
-#define SEG_K	 0x00
+#define SEG_K	 0xFF
 #define SEG_L  0x9B
-#define SEG_M  0x00
+#define SEG_M  0xFF
 #define SEG_N  0x3E
 #define SEG_O  0x82
 #define SEG_P  0x23
@@ -31,11 +31,11 @@
 #define SEG_S  0x52
 #define SEG_T  0x2B
 #define SEG_U  0x8A
-#define SEG_V  0x00
-#define SEG_W  0x00
-#define SEG_X  0x00
+#define SEG_V  0xFF
+#define SEG_W  0xFF
+#define SEG_X  0xFF
 #define SEG_Y  0x4A
-#define SEG_Z  0x00
+#define SEG_Z  0xFF
 
 unsigned short SEG_ALPHABET_BUF[27]={SEG_NONE, SEG_A, SEG_B, SEG_C, SEG_D, SEG_E, SEG_F, SEG_G, SEG_H, SEG_I, SEG_J, SEG_K, SEG_L, SEG_M, SEG_N, SEG_O, SEG_P, SEG_R, SEG_S, SEG_T, SEG_U, SEG_V, SEG_W, SEG_X, SEG_Y, SEG_Z}; 
 char alphabet[26]={'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}; 
